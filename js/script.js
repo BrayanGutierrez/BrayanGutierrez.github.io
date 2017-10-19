@@ -79,7 +79,7 @@ $(document).ready(function(){
 		const section = $(this).attr("href")
 		$('html, body').animate({
       scrollTop: $(section).offset().top
-  	}, 1000)
+  	})
 	})
 
 	$("#send-btn").on("click", (ev)=>{
@@ -91,7 +91,7 @@ $(document).ready(function(){
 			$(".form-error").html("Debes llenar correctamente todos los campos.")
 			$('html, body').animate({
 	      scrollTop: $('#contacto').offset().top
-	  	}, 1000)
+	  	})
 		}
 	})
 
